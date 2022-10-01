@@ -19,40 +19,37 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
             <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li tabindex="0">
-                <a class="justify-between">
-                  Parent
-                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Teacher</a></li>
+              <li><a>Event</a></li>
+              <li><a>Gallery</a></li>
+              <li><a>Contact</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Admission</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a ><img width="100px" src="assets/img/Blue Abstract Globe Network Logo (150 × 150 px).png" alt=""></a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
-            <li><a>Item 1</a></li>
-            <li tabindex="0">
-              <a>
-                Parent
-                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-              </a>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Item 3</a></li>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Teacher</a></li>
+            <li><a>Event</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Admission</a></li>
+            
+           
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn">Get started</a>
+          <div  class="login">
+            <a class="btn mt-16 ml-5">Login</a>
+          </div>
+          
         </div>
       </div>
 
@@ -134,7 +131,36 @@
     </div>
   </div>
 </div>
-<div class="flex justify-center container p-8">
+<!--counter section-->
+<div class="flex justify-center container">
+  <div class="w-75 bg-base-100">
+    <div class="card-body btn-teacher top">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-8">
+        <div>
+            
+          <h3 class="text-center text-3xl font-bold "> <span data-purecounter-start="0"
+            data-purecounter-end="34" class="text-dark text-center purecounter"> 34  </span> </h3>
+          <h6 class="text-dark text-center">Teachers</h6>
+        </div>
+        <div>
+          <h3 class="text-center text-3xl font-bold "> <span data-purecounter-start="0"
+            data-purecounter-end="2500" class="text-dark text-center purecounter"> 2500  </span> <span class="fs-2">+</span> </h3>
+         
+          <h6 class="text-dark text-center">Students</h6>
+        </div>
+        <div>
+          <h3 class="text-center text-3xl font-bold "> <span data-purecounter-start="0"
+            data-purecounter-end="1500" class="text-dark text-center purecounter"> 1500  </span> <span class="fs-2">+</span> </h3>
+          <h6 class="text-dark text-center">Graduates</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--Apply section-->
+<div class="flex justify-center container">
   <div class="w-75 bg-base-100">
     <div class="card-body bg-orange">
      <h3 class="text-2xl font-bold">Apply for Fall 2022</h3>
@@ -146,9 +172,10 @@
   </div>
 
 </div>
+
 <!--About school-->
 <!--About principal-->
-<div class="hero min-h-screen bg-base-100  container">
+<div id="principal" class="hero min-h-screen bg-base-100 container">
   <div class="hero-content flex-col lg:flex-row-reverse">
   
    <div class="p-8">   <hr>
@@ -173,9 +200,9 @@
 </div>
 <!--About principal-->
 <!--Teacher section start-->
-<section class="container">
-  <hr>
-  <h1 class="text-3xl font-bold p-2">Our Teachers</h1>
+<section class="container p-8">
+  <hr class="ml-8">
+  <h1 class="text-3xl font-bold p-8">Our Teachers</h1>
 
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-8">
     <div class=" card bg-base-100 pl-5">
@@ -297,5 +324,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!--Js-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/plugins/purecounter_vanilla.js"></script>
 </body>
 </html>
