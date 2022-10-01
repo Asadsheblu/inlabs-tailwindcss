@@ -5,8 +5,14 @@ body{
 html, body {
     overflow-x: hidden;
   }
+  /*Navbar */
   .navbar{
     height: 100px;
+  }
+  
+  .navbar ul li :hover{
+    color:#FA5E01!important;
+    border-bottom: 1px solid #FA5E01;
   }
   .login{
     background-image: url("../img/Rectangle\ 6.png");
@@ -95,7 +101,7 @@ html, body {
     }
     .bg-orange{
         background:  #FA5E01;
-        color:  #FFFFFF;
+        color:  #FFFFFF!important;
     }
     .top{
         margin-top: -300px;
